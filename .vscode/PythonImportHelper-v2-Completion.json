@@ -1,0 +1,677 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "linalg",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d.axes3d",
+        "description": "mpl_toolkits.mplot3d.axes3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d.axes3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d.axes3d",
+        "description": "mpl_toolkits.mplot3d.axes3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d.axes3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d.axes3d",
+        "description": "mpl_toolkits.mplot3d.axes3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d.axes3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d.axes3d",
+        "description": "mpl_toolkits.mplot3d.axes3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d.axes3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d.axes3d",
+        "description": "mpl_toolkits.mplot3d.axes3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d.axes3d",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "convolve",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "df = pd.read_excel(\n    'D:\\\\ASD\\\\【Vive】特徵計算\\\\Post\\\\ASD002_Post\\\\EEGFeatureIndexesData.xlsx',\n    usecols=[\n        \"Value.EEGSensorType\", \"Value.DELTA_Data\", \"Value.THETA_Data\",\n        \"Value.ALPHA_Data\", \"Value.BETA_Data\", \"Value.GAMMA_Data\",\n        \"Value.Timestamp\"\n    ])\n# print(df)\nd = df['Value.DELTA_Data']\nt = df['Value.THETA_Data']",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "d = df['Value.DELTA_Data']\nt = df['Value.THETA_Data']\na = df['Value.ALPHA_Data']\nb = df['Value.BETA_Data']\ng = df['Value.GAMMA_Data']\ns = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "t = df['Value.THETA_Data']\na = df['Value.ALPHA_Data']\nb = df['Value.BETA_Data']\ng = df['Value.GAMMA_Data']\ns = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "a = df['Value.ALPHA_Data']\nb = df['Value.BETA_Data']\ng = df['Value.GAMMA_Data']\ns = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))\n# Plot data on each subplot",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "b = df['Value.BETA_Data']\ng = df['Value.GAMMA_Data']\ns = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))\n# Plot data on each subplot\naxes[0].plot(d, linewidth=0.1)",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "g = df['Value.GAMMA_Data']\ns = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))\n# Plot data on each subplot\naxes[0].plot(d, linewidth=0.1)\naxes[0].set_title('Delta')",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "s = df['Value.EEGSensorType']\ntimestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))\n# Plot data on each subplot\naxes[0].plot(d, linewidth=0.1)\naxes[0].set_title('Delta')\naxes[1].plot(t, linewidth=0.1)",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "timestamp",
+        "kind": 5,
+        "importPath": "EEGFeature_Plot",
+        "description": "EEGFeature_Plot",
+        "peekOfCode": "timestamp = df['Value.Timestamp']\n# dt_obj = datetime.fromisoformat(timestamp)\n# str_date_time = datetime.strftime(\"%d-%m-%Y, %H:%M:%S\")\n# Define the subplots layout\nfig, axes = plt.subplots(nrows=5, ncols=1, figsize=(10, 15))\n# Plot data on each subplot\naxes[0].plot(d, linewidth=0.1)\naxes[0].set_title('Delta')\naxes[1].plot(t, linewidth=0.1)\naxes[1].set_title('Theta')",
+        "detail": "EEGFeature_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "Morlet",
+        "kind": 6,
+        "importPath": "EegProcessor",
+        "description": "EegProcessor",
+        "peekOfCode": "class Morlet:\n    def __init__(self) -> None:\n        return\n    def MorletWavelet(self, fc):\n        # MorletWavelet: Morlet wavelet.\n        # [MW] = MorletWavelet(fc) returns coefficients of \n        # the Morlet wavelet, where fc is the central frequency.\n        # MW(fc,t) = A * exp(-t^2/(2*sigma_t^2)) * exp(2i*PI*fc*t)\n        #            = A * exp(t*(t/(-2*sigma_t^2)+2i*PI*fc))\n        # A = 1/(sigma_t*PI^0.5)^0.5,",
+        "detail": "EegProcessor",
+        "documentation": {}
+    },
+    {
+        "label": "EEGPreprocessor",
+        "kind": 6,
+        "importPath": "EegProcessor",
+        "description": "EegProcessor",
+        "peekOfCode": "class EEGPreprocessor:\n    def __init__(self, PICO_CHANNELS_ORDER) -> None:\n        self.PICO_CHANNELS_ORDER = PICO_CHANNELS_ORDER\n        return       \n    # 怎麼把TP位進來?\n    def getEventTimes(self, task, path):\n        if task == \"C\":\n            fileFullPath = path + 'ChildClassCptTestData.csv'\n        elif task == \"A\":\n            fileFullPath = path + 'ChildClassAudioTestData.csv'",
+        "detail": "EegProcessor",
+        "documentation": {}
+    },
+    {
+        "label": "HeadMovement",
+        "kind": 6,
+        "importPath": "FeatureCalculator",
+        "description": "FeatureCalculator",
+        "peekOfCode": "class HeadMovement():\n    def calculateHeadMovementOnAxis(self, jointTrackingData, axisColumnName):\n        distance = 0.\n        for i in range(len(jointTrackingData)-1):\n            distance += abs(jointTrackingData[axisColumnName]\n                            [i+1] - jointTrackingData[axisColumnName][i])\n        return distance\n    def getHeadAmplitude(self, jointTrackingData, axisColumnName, prefix=\"\", suffix=\"\"):\n        jointTrackingData.reset_index(drop=True, inplace=True)\n        distance = self.calculateHeadMovementOnAxis(",
+        "detail": "FeatureCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "EyeMovement",
+        "kind": 6,
+        "importPath": "FeatureCalculator",
+        "description": "FeatureCalculator",
+        "peekOfCode": "class EyeMovement():\n    def calculateEuclideanDistance(self, a, b):\n        return np.linalg.norm(a-b)\n    def calculateMeanStd(self, targetDataSeries):\n        return np.mean(targetDataSeries), np.std(targetDataSeries)\n    # def calculateLeftPathLength(self, leftEyeData):\n    #     LeftEyePathLength = 0\n    #     for i in range(len(leftEyeData)-1):\n    #         nowPos = np.array((leftEyeData[f'gaze_origin_mm_X']\n    #                           [i], leftEyeData[f'gaze_origin_mm_Y'][i]))",
+        "detail": "FeatureCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "EEG",
+        "kind": 6,
+        "importPath": "FeatureCalculator",
+        "description": "FeatureCalculator",
+        "peekOfCode": "class EEG():\n    def __init__(self, PICO_CHANNELS_ORDER) -> None:\n        self.SAMPLING_RATE = 200\n        self.FMIN = 2.\n        self.FMAX = 30.\n        self.all_ch = ['ch1', 'ch2', 'ch3', 'ch4']\n        # PICO_CHANNELS_ORDER 與 Ganglion 的接線有關係，分別對照 ['ch1', 'ch2', 'ch3', 'ch4']\n        self.PICO_CHANNELS_ORDER = PICO_CHANNELS_ORDER\n        self.delta_band = [0.5, 4]\n        self.theta_band = [4, 8]",
+        "detail": "FeatureCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "ADHDTaskPerformance",
+        "kind": 6,
+        "importPath": "FeatureCalculator",
+        "description": "FeatureCalculator",
+        "peekOfCode": "class ADHDTaskPerformance():\n    def divide(self, x, y):\n        try:\n            return x/y\n        except ZeroDivisionError:\n            return -1\n    def calculateConfusionMatrix(self, taskPerformanceData):\n        taskPerformanceData.reset_index(drop=True, inplace=True)\n        try:\n            TP = sum((taskPerformanceData[\"Answer\"] == True) & (",
+        "detail": "FeatureCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "HeatMap",
+        "description": "HeatMap",
+        "peekOfCode": "df = pd.read_excel(\n    \"D:\\\\ASD\\\\【Vive】特徵計算\\\\Pre\\\\ASD001_Pre\\\\puzzle\\\\LabRightEyeData_Puzzle.xlsx\",\n    usecols=[\"Value.gaze_origin_mm.X\", \"Value.gaze_origin_mm.Y\", \"Value.gaze_origin_mm.Z\"]\n)\n# # 繪製三維熱圖\n# fig = px.scatter_3d(df, x=\"Value.gaze_origin_mm.X\", y=\"Value.gaze_origin_mm.Y\", z=\"Value.gaze_origin_mm.Z\", color=\"Value.gaze_origin_mm.Z\", opacity=0.7, color_continuous_scale=\"viridis\")\n# # 顯示圖片\n# fig.show()\n# 繪製密度圖\nsns.kdeplot(data=df, x=\"Value.gaze_origin_mm.X\", y=\"Value.gaze_origin_mm.Y\", ",
+        "detail": "HeatMap",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "df = pd.read_excel(\n    'D:\\\\ASD\\\\【Vive】特徵計算\\\\Post\\\\ASD002_Post\\\\JointTrackingData.xlsx',\n    usecols=[\"Value.qua.X\", \"Value.qua.Y\", \"Value.qua.Z\", \"Value.qua.W\"])\n#print(df)\nx = df['Value.qua.X']\ny = df['Value.qua.Y']\nz = df['Value.qua.Z']\nw = df['Value.qua.W']\n# Create quaternion array\nq = np.zeros((len(x), 4))",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "x = df['Value.qua.X']\ny = df['Value.qua.Y']\nz = df['Value.qua.Z']\nw = df['Value.qua.W']\n# Create quaternion array\nq = np.zeros((len(x), 4))\nq[:, 0] = x\nq[:, 1] = y\nq[:, 2] = z\nq[:, 3] = w",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "y = df['Value.qua.Y']\nz = df['Value.qua.Z']\nw = df['Value.qua.W']\n# Create quaternion array\nq = np.zeros((len(x), 4))\nq[:, 0] = x\nq[:, 1] = y\nq[:, 2] = z\nq[:, 3] = w\n# Compute rotation matrix from quaternion",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "z = df['Value.qua.Z']\nw = df['Value.qua.W']\n# Create quaternion array\nq = np.zeros((len(x), 4))\nq[:, 0] = x\nq[:, 1] = y\nq[:, 2] = z\nq[:, 3] = w\n# Compute rotation matrix from quaternion\nR = np.zeros((len(q), 3, 3))",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "w = df['Value.qua.W']\n# Create quaternion array\nq = np.zeros((len(x), 4))\nq[:, 0] = x\nq[:, 1] = y\nq[:, 2] = z\nq[:, 3] = w\n# Compute rotation matrix from quaternion\nR = np.zeros((len(q), 3, 3))\nfor i in range(len(q)):",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "q = np.zeros((len(x), 4))\nq[:, 0] = x\nq[:, 1] = y\nq[:, 2] = z\nq[:, 3] = w\n# Compute rotation matrix from quaternion\nR = np.zeros((len(q), 3, 3))\nfor i in range(len(q)):\n    q_i = q[i]\n    q_i /= np.linalg.norm(q_i)  # Ensure unit quaternion",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "R = np.zeros((len(q), 3, 3))\nfor i in range(len(q)):\n    q_i = q[i]\n    q_i /= np.linalg.norm(q_i)  # Ensure unit quaternion\n    q_w, q_x, q_y, q_z = q_i\n    R[i] = np.array([[\n        1 - 2 * q_y**2 - 2 * q_z**2, 2 * q_x * q_y - 2 * q_z * q_w,\n        2 * q_x * q_z + 2 * q_y * q_w\n    ],\n                     [",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "fig = plt.figure()\nax = fig.add_subplot(111, projection='3d')\nax.scatter(R[:, 0, 0], R[:, 1, 0], R[:, 2, 0], marker='*', s=1)  #x\nax.scatter(R[:, 0, 1], R[:, 1, 1], R[:, 2, 1], marker='+', s=1)  #y\nax.scatter(R[:, 0, 2], R[:, 1, 2], R[:, 2, 2], marker='x', s=1)  #z\n# Set axis labels\nax.set_xlabel('X Label')\nax.set_ylabel('Y Label')\nax.set_zlabel('Z Label')\nax.set_title('Head rotation')",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "ax",
+        "kind": 5,
+        "importPath": "HM_Plot",
+        "description": "HM_Plot",
+        "peekOfCode": "ax = fig.add_subplot(111, projection='3d')\nax.scatter(R[:, 0, 0], R[:, 1, 0], R[:, 2, 0], marker='*', s=1)  #x\nax.scatter(R[:, 0, 1], R[:, 1, 1], R[:, 2, 1], marker='+', s=1)  #y\nax.scatter(R[:, 0, 2], R[:, 1, 2], R[:, 2, 2], marker='x', s=1)  #z\n# Set axis labels\nax.set_xlabel('X Label')\nax.set_ylabel('Y Label')\nax.set_zlabel('Z Label')\nax.set_title('Head rotation')\n# Show plot",
+        "detail": "HM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "distance",
+        "kind": 2,
+        "importPath": "HP_Feature",
+        "description": "HP_Feature",
+        "peekOfCode": "def distance(x, y, z):\n    # 計算三個軸上的移動距離的平方和\n    distance_squared = x**2 + y**2 + z**2\n    # 取平方根得到真正的移動距離\n    distance = math.sqrt(distance_squared)\n    return distance\nprint(distance(21.405594, 12.17435, 28.787631))",
+        "detail": "HP_Feature",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "df = pd.read_excel(\n    \"D:\\\\ASD\\\\【Vive】特徵計算\\\\Post\\\\ASD002_Post\\\\JointTrackingData.xlsx\",\n    usecols=[\"Value.pos.X\", \"Value.pos.Y\", \"Value.pos.Z\"])\n#print(df)\nx = df['Value.pos.X']\ny = df['Value.pos.Y']\nz = df['Value.pos.Z']\n#z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 4)",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "x = df['Value.pos.X']\ny = df['Value.pos.Y']\nz = df['Value.pos.Z']\n#z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 4)\nybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "y = df['Value.pos.Y']\nz = df['Value.pos.Z']\n#z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 4)\nybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "z = df['Value.pos.Z']\n#z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 4)\nybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "#z",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "#z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 4)\nybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "xbins",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "xbins = np.linspace(x.min(), x.max(), 4)\nybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "ybins",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "ybins = np.linspace(y.min(), y.max(), 4)\nzbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")\n# Plot the 3D scatter plot with the bin edges",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "zbins",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "zbins = np.linspace(z.min(), z.max(), 4)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")\n# Plot the 3D scatter plot with the bin edges\nfig = plt.figure()",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "fig = plt.figure()\nax = fig.add_subplot(projection='3d')\nax.scatter(x, y, z, cmap='tab20', c=z, s=1, linewidths=None, edgecolors=None)\nfor i in range(len(xbins)):\n    for j in range(len(ybins)):\n        ax.plot([xbins[i], xbins[i]], [ybins[j], ybins[j]],\n                [zbins[0], zbins[-1]],\n                color='',\n                linewidth=0.5)\n        ax.plot([xbins[i], xbins[i]], [ybins[0], ybins[-1]],",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "ax",
+        "kind": 5,
+        "importPath": "HP_Plot",
+        "description": "HP_Plot",
+        "peekOfCode": "ax = fig.add_subplot(projection='3d')\nax.scatter(x, y, z, cmap='tab20', c=z, s=1, linewidths=None, edgecolors=None)\nfor i in range(len(xbins)):\n    for j in range(len(ybins)):\n        ax.plot([xbins[i], xbins[i]], [ybins[j], ybins[j]],\n                [zbins[0], zbins[-1]],\n                color='',\n                linewidth=0.5)\n        ax.plot([xbins[i], xbins[i]], [ybins[0], ybins[-1]],\n                [zbins[j], zbins[j]],",
+        "detail": "HP_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "JsonProcess",
+        "kind": 6,
+        "importPath": "JsonProcess",
+        "description": "JsonProcess",
+        "peekOfCode": "class JsonProcess:\n    def __init__(self, vector2Regex=r\"X:|Y:|,Z:.*\", vector3Regex=r\"X:|Y:|Z:\", vector4Regex=r\"X:|Y:|Z:|W:\") -> None:\n        self.jsonRegex = r\"[\\{\\}\\' ]\"\n        self.vector2Regex = vector2Regex\n        self.vector3Regex = vector3Regex\n        self.vector4Regex = vector4Regex\n        return\n    def findDataPath(self, folder, dataName):\n        fd = Path(folder)\n        if fd.exists():",
+        "detail": "JsonProcess",
+        "documentation": {}
+    },
+    {
+        "label": "read_data",
+        "kind": 2,
+        "importPath": "LeftEM_Plot",
+        "description": "LeftEM_Plot",
+        "peekOfCode": "def read_data(filename):\n    df = pd.read_excel(\n        filename,\n        usecols=[\n            \"Value.gaze_origin_mm.X\", \"Value.gaze_origin_mm.Y\", \"Value.gaze_origin_mm.Z\",\n            \"Value.pupil_position_in_sensor_area.x\", \"Value.pupil_position_in_sensor_area.y\",\n            \"Value.eye_openness\"\n        ])\n    return df\ndef calculate_eye_openness_stats(df):",
+        "detail": "LeftEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_eye_openness_stats",
+        "kind": 2,
+        "importPath": "LeftEM_Plot",
+        "description": "LeftEM_Plot",
+        "peekOfCode": "def calculate_eye_openness_stats(df):\n    eye_openness_mean = np.mean(df['Value.eye_openness'])\n    eye_openness_std = np.std(df['Value.eye_openness'])\n    return eye_openness_mean, eye_openness_std\ndef calculate_pupil_path_length(df):\n    positions = df[['Value.pupil_position_in_sensor_area.x',\n                    'Value.pupil_position_in_sensor_area.y']].to_numpy()\n    distances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\n    pupil_path_length = np.sum(distances)\n    return pupil_path_length",
+        "detail": "LeftEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_pupil_path_length",
+        "kind": 2,
+        "importPath": "LeftEM_Plot",
+        "description": "LeftEM_Plot",
+        "peekOfCode": "def calculate_pupil_path_length(df):\n    positions = df[['Value.pupil_position_in_sensor_area.x',\n                    'Value.pupil_position_in_sensor_area.y']].to_numpy()\n    distances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\n    pupil_path_length = np.sum(distances)\n    return pupil_path_length\ndef create_feature_dataframe(eye_openness_mean, eye_openness_std, pupil_path_length):\n    result = pd.DataFrame({\n        'eye_openness_mean': [eye_openness_mean],\n        'eye_openness_std': [eye_openness_std],",
+        "detail": "LeftEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "create_feature_dataframe",
+        "kind": 2,
+        "importPath": "LeftEM_Plot",
+        "description": "LeftEM_Plot",
+        "peekOfCode": "def create_feature_dataframe(eye_openness_mean, eye_openness_std, pupil_path_length):\n    result = pd.DataFrame({\n        'eye_openness_mean': [eye_openness_mean],\n        'eye_openness_std': [eye_openness_std],\n        'pupil_path_length': [pupil_path_length]\n    })\n    return result\ndef plot_3d_scatter_with_bins(x, y, z):\n    # Define the bin edges along each axis\n    xbins = np.linspace(x.min(), x.max(), 3)",
+        "detail": "LeftEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_3d_scatter_with_bins",
+        "kind": 2,
+        "importPath": "LeftEM_Plot",
+        "description": "LeftEM_Plot",
+        "peekOfCode": "def plot_3d_scatter_with_bins(x, y, z):\n    # Define the bin edges along each axis\n    xbins = np.linspace(x.min(), x.max(), 3)\n    ybins = np.linspace(y.min(), y.max(), 3)\n    zbins = np.linspace(z.min(), z.max(), 3)\n    #Compute the 3D histogram\n    hist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n    # Print the number of points in each bin\n    for i in range(len(xbins) - 1):\n        for j in range(len(ybins) - 1):",
+        "detail": "LeftEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "removeOutlier",
+        "kind": 2,
+        "importPath": "raw2feature_eeg(removeoutlier)",
+        "description": "raw2feature_eeg(removeoutlier)",
+        "peekOfCode": "def removeOutlier(listData, max_deviations=3):\n    dataMean = np.mean(listData)\n    dataStd = np.std(listData)\n    distance_from_mean = abs(listData - dataMean)\n    not_outlier_mask = distance_from_mean < max_deviations * dataStd\n    not_outlier_data = listData[not_outlier_mask]\n    return not_outlier_data\ndef getFeatures(data, col):\n    featuretypes = ['min', 'max', 'mean', 'std']\n    column_name = f'{col}_Data'",
+        "detail": "raw2feature_eeg(removeoutlier)",
+        "documentation": {}
+    },
+    {
+        "label": "getFeatures",
+        "kind": 2,
+        "importPath": "raw2feature_eeg(removeoutlier)",
+        "description": "raw2feature_eeg(removeoutlier)",
+        "peekOfCode": "def getFeatures(data, col):\n    featuretypes = ['min', 'max', 'mean', 'std']\n    column_name = f'{col}_Data'\n    sensor_cols = ['103', '104', '107', '108', '201', '202']\n    result = pd.DataFrame()\n    for sensor in sensor_cols:\n        sensor_df = data[data['Value.EEGSensorType'].astype(str) == sensor]\n        sensor_data = removeOutlier(sensor_df[column_name])\n        sensor_cal = [np.min(sensor_data), np.max(sensor_data), np.mean(sensor_data), np.std(sensor_data)]\n        sensor_result = pd.DataFrame([sensor_cal], columns=[",
+        "detail": "raw2feature_eeg(removeoutlier)",
+        "documentation": {}
+    },
+    {
+        "label": "calStageEEGFeatures",
+        "kind": 2,
+        "importPath": "raw2feature_eeg(removeoutlier)",
+        "description": "raw2feature_eeg(removeoutlier)",
+        "peekOfCode": "def calStageEEGFeatures(data):\n    # if interferenceType == \"\":\n    #     data = data[data[\"GlobalData._stage\"] != \"None\"]\n    # elif interferenceType == \"NoInf\":\n    #     data = data[data[\"GlobalData._stage\"] == \"None\"]\n    # elif interferenceType == \"All\":\n    #     pass\n    # Remove data that have no signals\n    data = data[(data != 0).all(axis=1)]\n    cols = ['Value.DELTA', 'Value.THETA', 'Value.ALPHA', 'Value.BETA', 'Value.GAMMA']",
+        "detail": "raw2feature_eeg(removeoutlier)",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "df = pd.read_excel(\n    \"D:\\\\ASD\\\\【Vive】特徵計算\\Pre\\\\ASD001_Pre\\\\cake\\\\LabRightEyeData_Cake.xlsx\",\n    usecols=[\n        \"Value.gaze_origin_mm.X\", \"Value.gaze_origin_mm.Y\", \"Value.gaze_origin_mm.Z\",\n        \"Value.pupil_position_in_sensor_area.x\", \"Value.pupil_position_in_sensor_area.y\",\n        \"Value.eye_openness\"\n    ])\n# Calculate mean and standard deviation of eye_openness\neye_openness_mean = np.mean(df['Value.eye_openness'])\neye_openness_std = np.std(df['Value.eye_openness'])",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "eye_openness_mean",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "eye_openness_mean = np.mean(df['Value.eye_openness'])\neye_openness_std = np.std(df['Value.eye_openness'])\n# Calculate Euclidean distance between points\npositions = df[['Value.pupil_position_in_sensor_area.x',\n                'Value.pupil_position_in_sensor_area.y']].to_numpy()\ndistances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\nPupilPathLength = np.sum(distances)\n# Combine all features into a DataFrame\nresult = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "eye_openness_std",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "eye_openness_std = np.std(df['Value.eye_openness'])\n# Calculate Euclidean distance between points\npositions = df[['Value.pupil_position_in_sensor_area.x',\n                'Value.pupil_position_in_sensor_area.y']].to_numpy()\ndistances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\nPupilPathLength = np.sum(distances)\n# Combine all features into a DataFrame\nresult = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],\n    'eye_openness_std': [eye_openness_std],",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "positions",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "positions = df[['Value.pupil_position_in_sensor_area.x',\n                'Value.pupil_position_in_sensor_area.y']].to_numpy()\ndistances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\nPupilPathLength = np.sum(distances)\n# Combine all features into a DataFrame\nresult = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],\n    'eye_openness_std': [eye_openness_std],\n    'PupilPathLength': [PupilPathLength]\n})",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "distances",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "distances = np.linalg.norm(np.diff(positions, axis=0), axis=1)\nPupilPathLength = np.sum(distances)\n# Combine all features into a DataFrame\nresult = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],\n    'eye_openness_std': [eye_openness_std],\n    'PupilPathLength': [PupilPathLength]\n})\n# Output result\nprint(result)",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "PupilPathLength",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "PupilPathLength = np.sum(distances)\n# Combine all features into a DataFrame\nresult = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],\n    'eye_openness_std': [eye_openness_std],\n    'PupilPathLength': [PupilPathLength]\n})\n# Output result\nprint(result)\n# # print(df)",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "result = pd.DataFrame({\n    'eye_openness_mean': [eye_openness_mean],\n    'eye_openness_std': [eye_openness_std],\n    'PupilPathLength': [PupilPathLength]\n})\n# Output result\nprint(result)\n# # print(df)\n# x = df['Value.gaze_origin_mm.X']\n# y = df['Value.gaze_origin_mm.Y']",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "x = df['Value.gaze_origin_mm.X']\ny = df['Value.gaze_origin_mm.Y']\nz = df['Value.gaze_origin_mm.Z']\n# z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 3)\nybins = np.linspace(y.min(), y.max(), 3)\nzbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "y = df['Value.gaze_origin_mm.Y']\nz = df['Value.gaze_origin_mm.Z']\n# z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 3)\nybins = np.linspace(y.min(), y.max(), 3)\nzbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "z = df['Value.gaze_origin_mm.Z']\n# z = (z - np.nanmin(z)) / (np.nanmax(z) - np.nanmin(z))\n# Define the bin edges along each axis\nxbins = np.linspace(x.min(), x.max(), 3)\nybins = np.linspace(y.min(), y.max(), 3)\nzbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "xbins",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "xbins = np.linspace(x.min(), x.max(), 3)\nybins = np.linspace(y.min(), y.max(), 3)\nzbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "ybins",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "ybins = np.linspace(y.min(), y.max(), 3)\nzbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")\n# Plot the 3D scatter plot with the bin edges",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "zbins",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "zbins = np.linspace(z.min(), z.max(), 3)\n# Compute the 3D histogram\nhist, edges = np.histogramdd((x, y, z), bins=(xbins, ybins, zbins))\n# Print the number of points in each bin\nfor i in range(len(xbins) - 1):\n    for j in range(len(ybins) - 1):\n        for k in range(len(zbins) - 1):\n            print(f\"Bin ({i}, {j}, {k}): {hist[i,j,k]}\")\n# Plot the 3D scatter plot with the bin edges\nfig = plt.figure()",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "fig = plt.figure()\nax = fig.add_subplot(projection='3d')\nax.scatter(x, y, z, cmap='tab20', c=z, s=1, linewidths=None, edgecolors=None)\nfor i in range(len(xbins)):\n    for j in range(len(ybins)):\n        ax.plot([xbins[i], xbins[i]], [ybins[j], ybins[j]],\n                [zbins[0], zbins[-1]],\n                color='orange',\n                linewidth=0.5)\n        ax.plot([xbins[i], xbins[i]], [ybins[0], ybins[-1]],",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    },
+    {
+        "label": "ax",
+        "kind": 5,
+        "importPath": "RightEM_Plot",
+        "description": "RightEM_Plot",
+        "peekOfCode": "ax = fig.add_subplot(projection='3d')\nax.scatter(x, y, z, cmap='tab20', c=z, s=1, linewidths=None, edgecolors=None)\nfor i in range(len(xbins)):\n    for j in range(len(ybins)):\n        ax.plot([xbins[i], xbins[i]], [ybins[j], ybins[j]],\n                [zbins[0], zbins[-1]],\n                color='orange',\n                linewidth=0.5)\n        ax.plot([xbins[i], xbins[i]], [ybins[0], ybins[-1]],\n                [zbins[j], zbins[j]],",
+        "detail": "RightEM_Plot",
+        "documentation": {}
+    }
+]
